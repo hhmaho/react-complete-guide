@@ -10,3 +10,26 @@
 .bold {
   font-weight: bold;
 }
+
+.App button {
+  border: 1px solid lightcyan;
+  padding: 16px;
+  background-color: darkcyan;
+  font: inherit;
+  color: white;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.App button.dimgray {
+  background-color: dimgray;
+}
+
+.App button.dimgray:hover {
+  background-color: steelblue;
+  color: white;
+}
