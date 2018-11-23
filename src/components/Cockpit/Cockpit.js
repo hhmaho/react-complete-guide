@@ -19,7 +19,7 @@ const cockpit = props => {
       <h1>{props.appTitle}</h1>
       <p className={assignedClasses.join(" ")}>Welcome</p>
       <button className={btnClass} onClick={props.clicked}>
-        Show - Hide
+        Show, hide Persons
       </button>
     </div>
   );
