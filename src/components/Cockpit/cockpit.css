@@ -1,8 +1,3 @@
-.App {
-  text-align: center;
-  font-family: sans-serif;
-}
-
 .darkcyan {
   color: darkcyan;
 }
@@ -11,7 +6,7 @@
   font-weight: bold;
 }
 
-.App button {
+.Cockpit button {
   border: 1px solid lightcyan;
   padding: 16px;
   background-color: darkcyan;
@@ -20,16 +15,16 @@
   cursor: pointer;
 }
 
-.App button:hover {
+.Cockpit button:hover {
   background-color: lightgrey;
   color: black;
 }
 
-.App button.dimgray {
+.Cockpit button.dimgray {
   background-color: dimgray;
 }
 
-.App button.dimgray:hover {
+.Cockpit button.dimgray:hover {
   background-color: steelblue;
   color: white;
 }
